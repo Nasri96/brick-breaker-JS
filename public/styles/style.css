@@ -1,0 +1,31 @@
+#gameScreen {
+    border: 5px solid black;
+    display: block;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    background-color: #1a1a1a;
+}
+
+#gameScreen2 {
+    border: 5px solid black;
+    display: block;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+#ball, #powerUp, #projectile, #paddle-base-1, #paddle-base-2, #paddle-base-3, 
+#brick-health-1, #brick-health-2, #brick-health-3, #brick-health-4, #brick-health-5, #brick-health-6,
+#paddle-fire-mode-1, #paddle-fire-mode-2, #paddle-fire-mode-3, #paddle-wall-mode, #paddle-width-mode, #paddle-fireball-mode, #paddle-threeball-mode, #lives,
+#arrow-right {
+    display: none;
+}
